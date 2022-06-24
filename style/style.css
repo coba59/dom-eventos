@@ -1,5 +1,5 @@
 body {
-    background-color: #FDFCDC;
+    background-color: #ffffff;
 }
 
 nav {
@@ -81,7 +81,7 @@ h1 {
 }
 
 .alerta{
-    color: red;
+    color: rgb(177, 145, 2);
 }
 
 #form {

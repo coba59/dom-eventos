@@ -30,7 +30,6 @@ function mostrarProductos() {
 }
 console.log(Fig)
 
-
 mostrarProductos()
 
 // MOSTRAR CARRITO
@@ -46,8 +45,6 @@ if (!Fig.lenght) {
     alertFig.innerText = ("El carrito está vacío")
     div.append(alertFig)
 }
-
-
 
 function showFig() {
     alertFig.remove()
@@ -82,8 +79,6 @@ function showFig() {
     //REDUCE PRECIO TOTAL
     const total = Fig.map((item) => parseInt(item.price)).reduce((FigTotalPrice, currentItemPrice) => FigTotalPrice + currentItemPrice, 0);
     alert("El precio total es de: "+total);
-
-    
 
     let totalCompra = document.createElement("h4")
     totalCompra.innerText = ("Total: " + total)
